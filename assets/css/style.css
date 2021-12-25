@@ -1,0 +1,75 @@
+@import "normalize.css";
+@import "header.css";
+@import "footer.css";
+@import "contact.css";
+@import "portfolio.css";
+
+:root {
+  --font-family-body: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font-family-heading: var(--font-family-body);
+  --primary-black: #353839;
+  --primary-pink: #a1869e;
+  --primary-gold: #a19562;
+  --primary-red: #a18578;
+  --primary-green: #75a19c;
+  --primary-purple: #6262a1;
+  --primary-white: #ffffff;
+  --off-white: #faf9f9;
+  --off-gray: #636466;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+body {
+  margin: auto;
+  font-family: var(--font-family-body);
+  background-color: var(--off-white);
+  color: var(--primary-black);
+  font-size: 2rem;
+  line-height: 1.2;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-family-heading);
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+section {
+  height: 100%;
+}
+
+.vertical {
+  height: 100%;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+.content {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}

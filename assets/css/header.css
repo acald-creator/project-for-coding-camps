@@ -1,0 +1,39 @@
+.main-nav {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .main-nav a {
+    padding: 0.5em 1em;
+    display: block;
+  }
+  
+  nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li > a {
+    display: block;
+    color: steelblue;
+  }
+  
+  li a:hover {
+    background: gray;
+    color: black;
+  }
+  
