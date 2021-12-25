@@ -1,0 +1,47 @@
+@import "styles.css";
+
+.contact input {
+  background: var(--off-white);
+  border: 1px solid #c6c7cc;
+  box-shadow: inset 0 1px 1px var(--primary-black);
+  padding: 6px;
+  color: var(--off-gray);
+  width: 100%;
+  margin-top: 6px;
+}
+
+.contact label {
+  color: #396870;
+  display: block;
+  font-weight: block;
+  margin-bottom: 20px;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  background: #cccccc;
+  border: 1px solid #191970;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 5px;
+  padding: 2px;
+}
+
+input {
+  margin: 0;
+  border-radius: 5px;
+}
+
+button {
+  background: linear-gradient(#49708f, #293f50);
+  border: 0;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  padding: 8px 16px;
+}
